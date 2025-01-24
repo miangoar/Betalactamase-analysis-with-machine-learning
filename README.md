@@ -12,7 +12,7 @@ The dataset contains 29445 rows and 82 columns. The rows represent all sequences
 
 | Column name | Description | 
 |-----------|-----------| 
-| **BLDB info** | 
+| **BLDB info** | ——————————————————————————————— |
 | #name |  |
 | seq |  |
 | length |  |
@@ -35,7 +35,7 @@ The dataset contains 29445 rows and 82 columns. The rows represent all sequences
 | mutants |  |
 | phenotype |  |
 | functional_info |  |
-| **GTDB annotation** |
+| **GTDB annotation** | ——————————————————————————————— |
 | source |  |
 | bitscore |  |
 | Domain - Species | 'Domain', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species' |
@@ -43,13 +43,13 @@ The dataset contains 29445 rows and 82 columns. The rows represent all sequences
 | phylo_group_genus |  |
 | phylo_group_sp |  |
 | bla_subclass |  |
-| **Embeddings** |
+| **Embeddings** |  ——————————————————————————————— |
 | esm1b |  |
 | esm2_650m |  |
 | esm2_3b |  |
 | carp |  |
 | t5xlu50 |  |
-| **Biopython annotaions** |
+| **Biopython annotaions** | ——————————————————————————————— |
 | molecular_weight |  |
 | aromaticity |  |
 | instability |  |
@@ -57,12 +57,12 @@ The dataset contains 29445 rows and 82 columns. The rows represent all sequences
 | isoelectric_point |  |
 | entropy |  |
 | helix, turn, sheet |  |
-| **Sequence quality filters** |
+| **Sequence quality filters** |  ——————————————————————————————— |
 | pass_the_filter |  |
 | is_clust_rep_30 |  |
 | is_clust_rep_60 |  |
 | is_clust_rep_90 |  |
-| **AFDB annotations** |
+| **AFDB annotations** |  ——————————————————————————————— |
 | has_af2_model |  |
 | model |  |
 | mean_plddt |  |
@@ -87,7 +87,7 @@ The dataset contains 29445 rows and 82 columns. The rows represent all sequences
 | paeImageUrl |  |
 | paeDocUrl |  |
 | dup_entry |  |
-| **pyDSSP annotations** |
+| **pyDSSP annotations** |  ——————————————————————————————— |
 | secondary_structure |  |
 | frec_turn, frec_helix, frec_beta  |  |
 | simple_secondary_structure |  |
