@@ -3,8 +3,8 @@
 This repository contains the main dataset and Jupyter notebooks used to analyze sequences from the BetaLactamase DataBase (BLDB) using protein language models
 
 # Content list
-- [Dataset description](https://github.com/miangoar/Betalactamase-analysis-with-machine-learning?tab=readme-ov-file#datasets-description)
-- [Notebooks](./Notebooks)
+- [Datasets description](https://github.com/miangoar/Betalactamase-analysis-with-machine-learning?tab=readme-ov-file#datasets-description)
+- [Notebooks](https://github.com/miangoar/Betalactamase-analysis-with-machine-learning?tab=readme-ov-file#notebooks)
 
 # Datasets description 
 
