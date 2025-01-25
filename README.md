@@ -1,5 +1,5 @@
 # Large-scale analysis of the β-lactamase sequence space with protein language models
-
+<img src="https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/blas.png" alt="Texto alternativo">
 This repository contains the main dataset and Jupyter notebooks used to analyze sequences from the BetaLactamase DataBase (BLDB) using protein language models
 
 # Content list
