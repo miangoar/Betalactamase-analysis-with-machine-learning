@@ -8,6 +8,9 @@ This repository contains the main dataset and Jupyter notebooks used to analyze 
 
 # Datasets description 
 
+The main dataset and 2D representations computed with PCA, tSNE and UMAP are available thought Zenodo:
+- <https://zenodo.org/records/14743325>
+
 The main dataset contains 29,445 rows and 82 columns. The rows represent all sequences retrieved from the BLDB. The columns contain information processed from the BLDB, including their taxonomy annotated against the Genome Taxonomy Database (GTDB RS207), the per-protein embeddings derived from five protein language models (ESM-1b, ESM2-650, ESM2-3b, CARP-640M, ProtTrans-t5-xl-u50), functional annotations estimated with Biopython, sequence quality filters applied to select sequences for the analysis, annotations from the AlphaFold Database (AFDB) for the available structures, and the secondary structure annotations generated from the predicted structures by AlphaFold2 using pyDSSP
 
 | Column name | Description | 
