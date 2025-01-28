@@ -102,20 +102,19 @@ The main dataset contains 29,445 rows and 82 columns. The rows represent all seq
 
 | Name | Description | 
 |-----------|-----------| 
-| [bldb_01_create_dataset]() | Parse |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
+| [bldb_01_create_dataset](https://github.com/miangoar/Betalactamase-analysis-with-machine-learning/blob/main/notebooks/bldb_01_create_dataset.ipynb) | Parse |
+| [bldb_02_embeddings](https://github.com/miangoar/Betalactamase-analysis-with-machine-learning/blob/main/notebooks/bldb_02_embeddings.ipynb) |  |
+| [bldb_03_af2](https://github.com/miangoar/Betalactamase-analysis-with-machine-learning/blob/main/notebooks/bldb_03_af2.ipynb) |  |
+| [bldb_04_PCA](https://github.com/miangoar/Betalactamase-analysis-with-machine-learning/blob/main/notebooks/bldb_04_PCA.ipynb) |  |
+| [bldb_04_PCA_rep90](https://github.com/miangoar/Betalactamase-analysis-with-machine-learning/blob/main/notebooks/bldb_04_PCA_rep90.ipynb) |  |
+| [bldb_05_tSNE_merge_csv](https://github.com/miangoar/Betalactamase-analysis-with-machine-learning/blob/main/notebooks/bldb_05_tSNE_merge_csv.ipynb) |  |
+| [bldb_06_tSNE](https://github.com/miangoar/Betalactamase-analysis-with-machine-learning/blob/main/notebooks/bldb_06_tSNE.ipynb) |  |
+| [bldb_umap_create](https://github.com/miangoar/Betalactamase-analysis-with-machine-learning/blob/main/notebooks/bldb_umap_create.ipynb) |  |
+| [bldb_umap_map](https://github.com/miangoar/Betalactamase-analysis-with-machine-learning/blob/main/notebooks/bldb_umap_map.ipynb) |  |
+| [bldb_07_tax_panel](https://github.com/miangoar/Betalactamase-analysis-with-machine-learning/blob/main/notebooks/bldb_07_tax_panel.ipynb) |  |
+| [bldb_08_fams_plots](https://github.com/miangoar/Betalactamase-analysis-with-machine-learning/blob/main/notebooks/bldb_08_fams_plots.ipynb) |  |
+| [bldb_09_class_a_foldseek](https://github.com/miangoar/Betalactamase-analysis-with-machine-learning/blob/main/notebooks/bldb_09_class_a_foldseek.ipynb) |  |
+| [bldb_10_class_c_foldseek_analysis](https://github.com/miangoar/Betalactamase-analysis-with-machine-learning/blob/main/notebooks/bldb_10_class_c_foldseek_analysis.ipynb) |  |
+| [bldb_11_unsupervised](https://github.com/miangoar/Betalactamase-analysis-with-machine-learning/blob/main/notebooks/bldb_11_unsupervised.ipynb) |  |
+| [bldb_12_biochem](https://github.com/miangoar/Betalactamase-analysis-with-machine-learning/blob/main/notebooks/bldb_12_biochem.ipynb) |  |
 | []() |  |
