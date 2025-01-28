@@ -16,28 +16,28 @@ The main dataset contains 29,445 rows and 82 columns. The rows represent all seq
 | Column name | Description | 
 |-----------|-----------| 
 | **BLDB info** | ——————————————————————————————— |
-| #name |  |
-| seq |  |
-| length |  |
-| filename |  |
-| bla_class |  |
-| protein_name |  |
-| protein_family_filename |  |
-| superfamily |  |
-| protein_family |  |
+| #name | information from the raw header |
+| seq | aminoacid sequence  |
+| length | sequence length |
+| filename | name of the raw file from BLDB that contain the sequence |
+| bla_class | molecular classification for betalactamases: A, B, C and D |
+| protein_name | name of the protein (e.g. TEM-1, SHV-1, etc) |
+| protein_family_filename | protein family retived from the raw filename (eg. TEM, SVH, etc) |
+| superfamily | SBL for serinbetalactamase and MBL for metalobetalactamase |
+| protein_family | Protein family retrieved from the header of each sequence (e.g., TEM, SVH, etc.) and validated using the current list of recognized families by the BLDB |
 | top_fam |  |
-| seq_id |  |
-| ambler_class |  |
-| alternative_protein_name |  |
-| subfamily |  |
-| genpept_id |  |
-| genbank_id |  |
-| pubmed_id |  |
-| seq_url |  |
-| pdb_structures |  |
-| mutants |  |
-| phenotype |  |
-| functional_info |  |
+| seq_id | arbitraty sequence identifier for easy manipulation |
+| ambler_class | molecular classification curated by the BLDB |
+| alternative_protein_name | alterative names curated by the BLDB |
+| subfamily | subfamilies for class D serinbetalactamases curated by the BLDB |
+| genpept_id | genpept_id curated by the BLDB |
+| genbank_id | genbank_id curated by the BLDB |
+| pubmed_id | pubmed_id curated by the BLDB|
+| seq_url | url curated by the BLDB for the sequence hosted in NCBI  |
+| pdb_structures | number of available structures in the PDB curated by the BLDB |
+| mutants | number of mutants available in the PDB curated by the BLDB |
+| phenotype | functional classification curated by the BLDB |
+| functional_info | functional classification curated by the BLDB |
 | **GTDB annotation** | ——————————————————————————————— |
 | source |  |
 | bitscore |  |
