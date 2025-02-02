@@ -77,18 +77,9 @@ The main dataset contains 29,445 rows and 82 columns. The rows represent all seq
 | uniprotDescription |  |
 | taxId |  |
 | organismScientificName |  |
-| uniprotStart |  |
-| uniprotEnd |  |
-| modelCreatedDate |  |
-| latestVersion |  |
-| allVersions |  |
-| isReviewed  |  |
-| isReferenceProteome |  |
-| cifUrl |  |
-| bcifUrl |  |
-| pdbUrl |  |
-| paeImageUrl |  |
-| paeDocUrl |  |
+| uniprotStart, uniprotEnd |  |
+| modelCreatedDate, latestVersion, allVersions, allVersions, isReviewed, isReferenceProteome |  |
+| cifUrl, bcifUrl, pdbUrl, paeImageUrl, paeDocUrl |  |
 | dup_entry |  |
 | **pyDSSP annotations** |  ——————————————————————————————— |
 | secondary_structure |  |
