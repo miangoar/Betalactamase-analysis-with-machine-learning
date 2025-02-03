@@ -16,18 +16,19 @@ The main dataset contains 29,445 rows and 82 columns. The rows represent all seq
 | Column name | Description | 
 |-----------|-----------| 
 | **BLDB info** | ——————————————————————————————— |
-| #name |  header information (eg. `gi|30230644|gb|AAP20891.1|TEM-1| class A broad-spectrum beta-lactamase TEM-1`)|
-| seq | aminoacid sequence  |
+| #name |  header information <br> (eg. `gi \| 30230644 \| gb \| AAP20891.1 \| TEM-1 \| class A broad-spectrum beta-lactamase TEM-1`)|
+| seq | amino acid sequence  |
 | length | sequence length |
-| filename | filename from BLDB that contain the sequence (eg `A-TEM-1-prot.fasta`, `C-PDC-1-prot.fasta`, `B3-GOB-1-prot.fasta`	)|
-| bla_class | molecular classification (A, C, D and B1, B2, B3) parsed from the filename |
-| protein_name | name of the protein (e.g. TEM-1, SHV-1, etc) |
-| protein_family_filename | protein family retived from the raw filename (eg. TEM, SVH, etc) |
-| superfamily | SBL for serinbetalactamase and MBL for metalobetalactamase |
-| protein_family | Protein family retrieved from the header of each sequence (e.g., TEM, SVH, etc.) and validated using the current list of recognized families by the BLDB |
-| top_fam |  |
-| seq_id | arbitraty sequence identifier for easy manipulation |
+| filename | filename from BLDB <br> (eg. `A-TEM-1-prot.fasta`, `C-PDC-1-prot.fasta`, `B3-GOB-1-prot.fasta`)|
+| bla_class | molecular classification parsed from the filename <br> (ie. A, C, D and B1, B2, B3)|
+| protein_name | protein name parsed from the filename <br> (e.g. TEM-1, PDC-1, GOB-1, etc) |
+| protein_family_filename | protein family parsed from the filename. This is because, apart from the recognized families, the BLDB assigns a putative family labeled as `AFAM{numerical_id}` |
+| superfamily | SBL for serinbetalactamases (i.e. A, C and D) and MBL for metalobetalactamase (i.e. B1, B2 and B3)|
+| protein_family | protein family parsed from the header and validated against the list of recognized families by the BLDB as of January 8, 2024. Since this information is validated, it was used as the default for the analysis.  |
+| top_fam | indicates whether the protein family is among the top 20 most abundant families in each molecular class while preserving their names; otherwise, the labels `No top` and `Unknown` were assigned. |
+| seq_id | sequence ID for easy manipulation (eg. `bldb_000001`, `bldb_000002` ... `bldb_029445`) |
 | ambler_class | molecular classification curated by the BLDB |
+
 | alternative_protein_name | alterative names curated by the BLDB |
 | subfamily | subfamilies for class D serinbetalactamases curated by the BLDB |
 | genpept_id | genpept_id curated by the BLDB |
