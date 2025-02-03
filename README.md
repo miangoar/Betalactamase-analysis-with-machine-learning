@@ -16,11 +16,11 @@ The main dataset contains 29,445 rows and 82 columns. The rows represent all seq
 | Column name | Description | 
 |-----------|-----------| 
 | **BLDB info** | ——————————————————————————————— |
-| #name | information from the raw header |
+| #name |  header information (eg. `gi|30230644|gb|AAP20891.1|TEM-1| class A broad-spectrum beta-lactamase TEM-1`)|
 | seq | aminoacid sequence  |
 | length | sequence length |
-| filename | name of the raw file from BLDB that contain the sequence |
-| bla_class | molecular classification for betalactamases: A, B, C and D |
+| filename | filename from BLDB that contain the sequence (eg `A-TEM-1-prot.fasta`, `C-PDC-1-prot.fasta`, `B3-GOB-1-prot.fasta`	)|
+| bla_class | molecular classification (A, C, D and B1, B2, B3) parsed from the filename |
 | protein_name | name of the protein (e.g. TEM-1, SHV-1, etc) |
 | protein_family_filename | protein family retived from the raw filename (eg. TEM, SVH, etc) |
 | superfamily | SBL for serinbetalactamase and MBL for metalobetalactamase |
